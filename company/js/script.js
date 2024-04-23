@@ -126,3 +126,12 @@ overlay.addEventListener('click', () => {
 lightBoxImg.addEventListener('click', () => {
   lightBoxImg.classList.toggle('zoom-in');
 })
+
+
+  function showAllMembers() {
+    var additionalMembers = document.querySelectorAll('.additional-member');
+    additionalMembers.forEach(function(member) {
+      member.classList.toggle('hidden');
+    });
+  }
+

@@ -2352,3 +2352,7 @@ nav .mega-menu::before {
   }
 }
 /* Animations */
+
+.additional-member.hidden {
+  display: none;
+}
